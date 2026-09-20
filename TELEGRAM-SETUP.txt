@@ -1,0 +1,20 @@
+НАЛАШТУВАННЯ TELEGRAM ДЛЯ САЙТУ АТМ
+
+1. У Telegram відкрийте @BotFather і створіть бота командою /newbot.
+2. Збережіть токен бота. НЕ вставляйте його в index.html або script.js.
+3. Напишіть створеному боту будь-яке повідомлення (наприклад /start).
+4. Дізнайтеся CHAT ID для чату, куди мають приходити заявки.
+5. У Netlify відкрийте налаштування проєкту -> Environment variables.
+6. Додайте дві змінні:
+   TELEGRAM_BOT_TOKEN = токен від BotFather
+   TELEGRAM_CHAT_ID = ID потрібного чату
+7. Для змінних має бути доступний scope Functions (або All scopes).
+8. Зробіть новий Deploy після додавання/зміни змінних.
+
+Сайт уже містить Netlify Function:
+netlify/functions/telegram-booking.mjs
+
+Форма надсилає дані на:
+/api/telegram-booking
+
+Токен не потрапляє у браузер — він читається серверною Netlify Function через process.env.

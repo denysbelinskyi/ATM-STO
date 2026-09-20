@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="АТМ — автомагазин та автосервіс. Діагностика, ремонт ходової та двигунів, заміна оливи, шиномонтаж, запчастини, оливи, акумулятори та диски." />
+  <title>АТМ — Автомагазин & Автосервіс</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <div class="noise"></div>
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="АТМ — на головну">
+        <span class="brand-mark">ATM</span>
+        <span class="brand-copy"><b>Автомагазин</b><small>Автосервіс</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Головна навігація">
+        <a href="#services">Послуги</a><a href="#shop">Автомагазин</a><a href="#booking">Запис</a><a href="#contacts">Контакти</a>
+      </nav>
+      <a class="btn btn-small" href="tel:+380501305504">Подзвонити</a>
+      <button class="menu" aria-label="Відкрити меню"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Автомагазин • Автосервіс</div>
+          <h1>Ваш автомобіль —<br><em>наша робота.</em></h1>
+          <p>Комплексне обслуговування авто в одному місці: від діагностики та ремонту до підбору запчастин і витратних матеріалів.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#booking">Записатися на СТО <span>↗</span></a>
+            <a class="btn btn-ghost" href="https://maps.app.goo.gl/SMtoV5YVGsmZUaTb8" target="_blank" rel="noopener">Прокласти маршрут</a>
+          </div>
+          <div class="hero-points"><span>Діагностика</span><span>Ремонт</span><span>Запчастини</span></div>
+        </div>
+        <div class="hero-visual reveal delay">
+          <div class="atm-watermark">ATM</div>
+          <div class="car-wrap sport-car-photo" role="img" aria-label="Червоний спортивний автомобіль"></div>
+        </div>
+      </div>
+      <div class="ticker" aria-label="Послуги АТМ"><div class="ticker-track"><div class="ticker-group"><span>ДІАГНОСТИКА</span><i>•</i><span>РЕМОНТ ХОДОВОЇ</span><i>•</i><span>ЗАМІНА ОЛИВИ</span><i>•</i><span>РЕМОНТ ДВИГУНІВ</span><i>•</i><span>ШИНОМОНТАЖ</span><i>•</i><span>ЗАПЧАСТИНИ</span><i>•</i><span>ОЛИВИ</span><i>•</i><span>АКУМУЛЯТОРИ</span><i>•</i><span>ДИСКИ</span><i>•</i></div></div></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="kicker">Сервіс</span><h2>Послуги СТО</h2></div><p>Зрозумілий процес, уважність до деталей і роботи, які потрібні вашому автомобілю.</p></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="icon"><svg viewBox="0 0 64 64"><path d="M14 46l10-10m16-16 10-10M19 14l7 7-9 9-7-7m28 18 7 7 9-9-7-7M28 36l8-8"/></svg></div><h3>Діагностика</h3><p>Перевірка автомобіля та пошук причин несправностей перед ремонтом.</p><span class="arrow">↗</span></article>
+          <article class="service-card reveal"><div class="icon"><svg viewBox="0 0 64 64"><path d="M12 39h40M17 39l5-15h20l5 15M20 45a5 5 0 1 0 10 0m4 0a5 5 0 1 0 10 0M27 29h10"/></svg></div><h3>Ремонт ходової</h3><p>Обслуговування елементів підвіски та відновлення комфортної роботи авто.</p><span class="arrow">↗</span></article>
+          <article class="service-card reveal"><div class="icon"><svg viewBox="0 0 64 64"><path d="M32 8c8 12 17 22 17 33a17 17 0 0 1-34 0C15 30 24 20 32 8Z"/><path d="M23 42c2 5 6 7 11 7"/></svg></div><h3>Заміна оливи</h3><p>Заміна моторної оливи та необхідних витратних матеріалів.</p><span class="arrow">↗</span></article>
+          <article class="service-card reveal"><div class="icon"><svg viewBox="0 0 64 64"><path d="M20 14h24v36H20zM25 9h14v5M25 24h14M25 32h14M25 40h9M15 21h5m24 0h5M15 43h5m24 0h5"/></svg></div><h3>Ремонт двигунів</h3><p>Діагностика та ремонт двигуна відповідно до виявленої несправності.</p><span class="arrow">↗</span></article>
+          <article class="service-card reveal"><div class="icon"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22"/><circle cx="32" cy="32" r="8"/><path d="M32 10v14m0 16v14M10 32h14m16 0h14M17 17l10 10m10 10 10 10M47 17 37 27M27 37 17 47"/></svg></div><h3>Шиномонтаж</h3><p>Сезонне та поточне обслуговування коліс і шин.</p><span class="arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shop" id="shop">
+      <div class="container shop-grid">
+        <div class="shop-copy reveal"><span class="kicker">Автомагазин</span><h2>Потрібні деталі?<br><em>Підберемо.</em></h2><p>Не потрібно шукати все в різних місцях. В АТМ можна уточнити наявність потрібних товарів і одразу домовитися про обслуговування.</p><a class="text-link" href="tel:+380660309299">Уточнити наявність <span>→</span></a></div>
+        <div class="parts reveal delay">
+          <div class="part"><div class="part-icon"><svg viewBox="0 0 64 64"><path d="M18 10h28v12H18zM14 22h36v32H14zM22 31h20M22 39h20M22 47h12"/></svg></div><span>Запчастини</span></div><div class="part"><div class="part-icon"><svg viewBox="0 0 64 64"><path d="M32 7C23 20 16 29 16 40a16 16 0 0 0 32 0C48 29 41 20 32 7Z"/><path d="M24 41c2 5 5 7 10 8"/></svg></div><span>Оливи</span></div><div class="part"><div class="part-icon"><svg viewBox="0 0 64 64"><path d="M12 20h40v34H12zM20 14h8v6m8-6h8v6M20 32h12m-6-6v12M39 32h7"/></svg></div><span>Акумулятори</span></div><div class="part"><div class="part-icon"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="23"/><circle cx="32" cy="32" r="8"/><path d="M32 9v15m0 16v15M9 32h15m16 0h15M16 16l11 11m10 10 11 11M48 16 37 27M27 37 16 48"/></svg></div><span>Диски</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-copy reveal"><span class="kicker">Онлайн-запис</span><h2>Оберіть зручні<br>дату та час</h2><p>Залиште заявку — працівник СТО зв’яжеться з вами для підтвердження запису.</p><div class="contact-mini"><span>Телефони</span><a href="tel:+380660309299">066 030 92 99</a><a href="tel:+380501305504">050 130 55 04</a></div></div>
+        <form class="booking-form reveal delay" id="bookingForm" name="booking" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="booking">
+          <p class="hidden-field"><label>Не заповнюйте це поле: <input name="bot-field"></label></p>
+          <label>Ваше ім’я<input name="name" type="text" placeholder="Наприклад, Олександр" required></label>
+          <label>Телефон<input name="phone" type="tel" placeholder="+380 __ ___ __ __" required></label>
+          <div class="two"><label>Дата<input name="date" type="date" required></label><label>Час<input name="time" type="time" required></label></div>
+          <label>Що потрібно зробити?<select name="service"><option>Діагностика</option><option>Ремонт ходової</option><option>Заміна оливи</option><option>Ремонт двигуна</option><option>Шиномонтаж</option><option>Інше</option></select></label>
+          <label>Коментар<textarea name="message" rows="3" placeholder="Марка авто, модель або коротко опишіть проблему"></textarea></label>
+          <button class="btn form-btn" type="submit">Надіслати заявку <span>↗</span></button>
+          <p class="form-note" id="formNote">Заявка буде надіслана менеджеру СТО. Після цього з вами зв’яжуться для підтвердження.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section location" id="contacts">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="kicker">Місцезнаходження</span><h2>Як нас знайти</h2></div><p>Відкрийте точку СТО у Google Maps та побудуйте маршрут з вашого місцезнаходження.</p></div>
+        <div class="google-map-card reveal">
+          <iframe class="google-map" title="Автосервіс АТМ на Google Maps" src="https://maps.google.com/maps?q=48.6109963,22.2930838&z=16&hl=uk&iwloc=0&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="map-pin-link" href="https://maps.app.goo.gl/SMtoV5YVGsmZUaTb8" target="_blank" rel="noopener" aria-label="Відкрити точку АТМ у Google Maps"></a>
+          <div class="map-info"><small>Google Maps</small><h3>АТМ — автомагазин та автосервіс</h3><a href="https://maps.app.goo.gl/SMtoV5YVGsmZUaTb8" target="_blank" rel="noopener">Відкрити саме цю точку та прокласти маршрут ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid"><div class="brand footer-brand"><span class="brand-mark">ATM</span><span class="brand-copy"><b>Автомагазин</b><small>Автосервіс</small></span></div><div><small>Автомагазин</small><a href="tel:+380660309299">066 030 92 99</a></div><div><small>Автосервіс</small><a href="tel:+380501305504">050 130 55 04</a></div><a class="to-top" href="#top">↑</a></div><div class="container copyright">© <span id="year"></span> АТМ. Всі права захищені.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
